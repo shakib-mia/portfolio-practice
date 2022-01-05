@@ -13,9 +13,10 @@ body {
     background-repeat: no-repeat;
 }
 
-.half-width{
+.half-width {
     width: 48%;
-    padding-left: 140px;
+    padding-left: 2%;
+    margin-left: 5%;
 }
 
 img {
@@ -24,6 +25,10 @@ img {
 
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .text-orange {
@@ -43,4 +48,33 @@ h1 {
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
+}
+
+.experiences {
+    background: url("images/exp-bg.png") no-repeat;
+    background-position-x: -1rem;
+    background-position-y: 13rem;
+}
+
+.experiences .half-width {
+    margin: 0px 61px;
+    box-shadow: rgb(143, 141, 141) 0px 0px 44px;
+    padding: 16px 35px;
+}
+
+#baby-dev {
+    margin-right: 3rem;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, salmon, tomato);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
 }
