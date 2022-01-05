@@ -1,12 +1,11 @@
-
-
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
+    margin-bottom: 170px;
 }
 
 .top-banner{
@@ -37,4 +36,11 @@ h1 {
     background-image: linear-gradient(225deg, orangered, orange);
     padding: 10px 30px;
     border-radius: 5px;
+}
+
+.dream-big {
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
 }
