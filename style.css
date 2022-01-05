@@ -41,6 +41,7 @@ h2 {
     background-image: linear-gradient(225deg, orangered, orange);
     padding: 10px 30px;
     border-radius: 5px;
+    font-weight: bolder;
 }
 
 .dream-big {
