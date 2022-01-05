@@ -1,0 +1,35 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.top-banner{
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.half-width{
+    width: 48%;
+    padding-left: 140px;
+}
+
+img {
+    width: 80%;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.orange-text {
+    color: orange;
+}
